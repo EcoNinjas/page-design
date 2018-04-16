@@ -1,0 +1,57 @@
+/*
+Error: Invalid CSS after "": expected selector, was "{"
+        on line 1 of noscript.css.map
+
+1: {
+2: "version": 3,
+3: "mappings": "AAIQ,iCAAsB;AAE9B;;;;EAIE;AAEF,aAAa;AAEZ,QAAS;EACR,gBAAgB,EC2IT,OAAmB;ED1I1B,gBAAgB,EAAG,0HAAoH;EACvI,eAAe,EAAG,yCAAyC;EAC3D,mBAAmB,EAAE,8CAA8C;EACnE,iBAAiB,EAAG,+CAA+C;EACnE,qBAAqB,EAAE,uCAAuC;EAG7D,uBAAS;IACR,OAAO,EAAE,IAAI;;AAKjB,WAAW;AAGT,sBAAkB;EACjB,OAAO,EAAE,CAAC;EAGT,oDAAmB;ICshBZ,cAAsB,EAAE,IAA+C;IAAvE,iBAAsB,EAAE,IAA+C;IAAvE,aAAsB,EAAE,IAA+C;IAAvE,SAAsB,EAAE,IAA+C;IDphB7E,OAAO,EAAE,CAAC",
+4: "sources": ["noscript.scss","libs/_skel.scss"],
+5: "names": [],
+6: "file": "noscript.css"
+
+Backtrace:
+noscript.css.map:1
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:1278:in `expected'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:1208:in `expected'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:1188:in `expr!'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/scss/static_parser.rb:20:in `parse_selector'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:438:in `visit_rule'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/stack.rb:79:in `block in with_base'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/stack.rb:135:in `with_frame'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/stack.rb:79:in `with_base'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:52:in `map'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/tree/root_node.rb:36:in `css_tree'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:209:in `each'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:294:in `watch'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/plugin.rb:109:in `method_missing'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/exec/base.rb:52:in `parse'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/lib/sass/exec/base.rb:19:in `parse!'
+/var/lib/gems/2.2.0/gems/sass-3.5.1/bin/sass:13:in `<top (required)>'
+/usr/local/bin/sass:23:in `load'
+/usr/local/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"\": expected selector, was \"{\"\A         on line 1 of noscript.css.map\A \A 1: {\A 2: \"version\": 3,\A 3: \"mappings\": \"AAIQ,iCAAsB;AAE9B;;;;EAIE;AAEF,aAAa;AAEZ,QAAS;EACR,gBAAgB,EC2IT,OAAmB;ED1I1B,gBAAgB,EAAG,0HAAoH;EACvI,eAAe,EAAG,yCAAyC;EAC3D,mBAAmB,EAAE,8CAA8C;EACnE,iBAAiB,EAAG,+CAA+C;EACnE,qBAAqB,EAAE,uCAAuC;EAG7D,uBAAS;IACR,OAAO,EAAE,IAAI;;AAKjB,WAAW;AAGT,sBAAkB;EACjB,OAAO,EAAE,CAAC;EAGT,oDAAmB;ICshBZ,cAAsB,EAAE,IAA+C;IAAvE,iBAAsB,EAAE,IAA+C;IAAvE,aAAsB,EAAE,IAA+C;IAAvE,SAAsB,EAAE,IAA+C;IDphB7E,OAAO,EAAE,CAAC\",\A 4: \"sources\": [\"noscript.scss\",\"libs/_skel.scss\"],\A 5: \"names\": [],\A 6: \"file\": \"noscript.css\""; }
