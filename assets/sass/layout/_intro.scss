@@ -28,7 +28,7 @@
   justify-content: center;
   background: radial-gradient(
     farthest-side,
-    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.6) 30%,
     transparent
   );
   text-shadow: 0 0 13px black;
@@ -43,6 +43,7 @@
     font-style: italic;
     margin-top: -0.25rem;
     text-align: center;
+    font-weight: bold;
   }
 
   & + #header {

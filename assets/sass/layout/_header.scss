@@ -39,7 +39,12 @@
                         line-height: 1;
                         padding: 1rem 1.75rem;
                         visibility: visible;
-                        background-color: rgba(#ccc, 0.5);
+                        background: radial-gradient(
+                          farthest-side,
+                          rgba(0, 0, 0, 0.6) 30%,
+                          transparent
+                        );
+                        text-shadow: 0 0 13px black;
 
                         &:hover {
                                 border-color: _palette(invert, accent) !important;
