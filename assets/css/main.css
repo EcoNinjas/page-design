@@ -1865,6 +1865,7 @@ input[type="radio"]:focus + label:before {
 
 /* Image */
 .image {
+  text-align: center;
   border: 0;
   display: inline-block;
   position: relative; }
@@ -2503,7 +2504,8 @@ table.alt tbody tr td {
     letter-spacing: 0.075em;
     line-height: 1;
     padding: 1rem 1.75rem;
-    visibility: visible; }
+    visibility: visible;
+    background-color: rgba(204, 204, 204, 0.5); }
     #header .logo:hover {
       border-color: #a00000 !important;
       color: #a00000 !important; }
