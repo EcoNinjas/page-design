@@ -2313,7 +2313,12 @@ table.alt tbody tr td {
   cursor: default;
   text-align: center;
   z-index: 1;
-  min-height: 100vh; }
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: radial-gradient(farthest-side, rgba(0, 0, 0, 0.5), transparent);
+  text-shadow: 0 0 13px black; }
   #intro input, #intro select, #intro textarea {
     color: #7a0c0c; }
   #intro a {
