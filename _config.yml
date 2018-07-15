@@ -4,7 +4,7 @@ bio:                'Wir bekämpfen das Artensterben'
 description:        "Wir bekämpfen das Artensterben"
 locale:             de_DE
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "http://www.econinjas.de" # the base hostname & protocol for your site
 
 defaults:
 - scope:
