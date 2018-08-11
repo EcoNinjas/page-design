@@ -1,69 +1,69 @@
 // Misc.
-	$misc: (
-		z-index-base:		10000
-	);
+$misc: (
+    z-index-base:		10000
+);
 
 // Duration.
-	$duration: (
-		menu:				0.5s,
-		transition:			0.2s
-	);
+$duration: (
+    menu:				0.5s,
+    transition:			0.2s
+);
 
 // Size.
-	$size: (
-		element-height:		3rem,
-		element-margin:		2rem,
-		padding:			2rem,
-		wrapper:			72rem
-	);
+$size: (
+    element-height:		3rem,
+    element-margin:		2rem,
+    padding:			2rem,
+    wrapper:			72rem
+);
 
 // Font.
-	$font: (
-		family:				('Merriweather', Georgia, serif),
-		family-heading:		('Source Sans Pro', Helvetica, sans-serif),
-		family-fixed:		('Courier New', monospace),
-		weight:				300,
-		weight-bold:		600,
-		weight-heading:		900
-	);
+$font: (
+    family:				('Merriweather', Georgia, serif),
+    family-heading:		('Source Sans Pro', Helvetica, sans-serif),
+    family-fixed:		('Courier New', monospace),
+    weight:				300,
+    weight-bold:		600,
+    weight-heading:		900
+);
 
 // Palette.
-  $color1: #2f0000;
-  $color2: #530000;
-  $color3: #aa0c0c;
-  $color4: #a22929;
-  $color5: #c65050;
+$color1: #2f0000;
+$color2: #530000;
+$color3: #aa0c0c;
+$color4: #a22929;
+$color5: #c65050;
 
 
-	$palette: (
-		wrapper-bg:			#000,
+$palette: (
+    wrapper-bg:			#000,
 
-		bg:					lighten(#c68650, 10),
-		fg:					$color1,
-		fg-bold:			$color1,
-		fg-light:			mix($color3, #000, 75%),
-		border:				mix($color2, #000, 75%),
-		border-bg:			rgba($color2, 10),
-		accent:				lighten($color1, 20),
+    bg:					lighten(#c68650, 10),
+    fg:					$color1,
+    fg-bold:			$color1,
+    fg-light:			mix($color3, #000, 75%),
+    border:				mix($color2, #000, 75%),
+    border-bg:			rgba($color2, 10),
+    accent:				lighten($color1, 20),
 
-		alt: (
-			bg:				$color2,
-			fg:				lighten($color3, 10),
-			fg-bold:		lighten($color3, 10),
-			fg-light:		lighten($color3, 20),
-			border:			mix($color2, #f5f5f5, 75%),
-			border-bg:		rgba($color1, 0.5),
-			accent:			$color4,
-		),
+    alt: (
+	bg:				$color2,
+	fg:				lighten($color3, 10),
+	fg-bold:		lighten($color3, 10),
+	fg-light:		lighten($color3, 20),
+	border:			mix($color2, #f5f5f5, 75%),
+	border-bg:		rgba($color1, 0.5),
+	accent:			$color4,
+    ),
 
-		invert: (
-			bg:				$color4,
-			bg-alt:			lighten($color4, 10),
-			fg:				$color3,
-			fg-bold:		$color3,
-			fg-light:		rgba($color2, 0.5),
-			border:			$color2,
-			border-bg:		rgba($color2,0.075),
-			accent:			lighten($color2, 15),
-		),
-	);
+    invert: (
+	bg:				$color4,
+	bg-alt:			lighten($color4, 10),
+	fg:				$color3,
+	fg-bold:		$color3,
+	fg-light:		rgba($color2, 0.5),
+	border:			$color2,
+	border-bg:		rgba($color2,0.075),
+	accent:			lighten($color2, 15),
+    ),
+);

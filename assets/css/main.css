@@ -3009,7 +3009,7 @@ table.alt tbody tr td {
 #copyright {
   color: #aa0c0c;
   position: relative;
-  color: rgba(170, 12, 12, 0.25);
+  color: #920a0a;
   cursor: default;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 0.8rem;
@@ -3021,7 +3021,9 @@ table.alt tbody tr td {
   margin: 4rem auto 8rem auto;
   width: calc(100% - 4rem);
   max-width: 72rem;
-  z-index: 2; }
+  z-index: 2;
+  background-color: rgba(83, 0, 0, 0.9);
+  padding: 20px 0; }
   #copyright input, #copyright select, #copyright textarea {
     color: #aa0c0c; }
   #copyright a {
