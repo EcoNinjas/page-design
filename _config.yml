@@ -30,6 +30,11 @@ sass:
   sass_dir:         _sass
   style:            compressed
 
+# Tipps
+collections:
+  wildnis:
+    output: true
+
 # Comments
 disqus_shortname:   default
 
