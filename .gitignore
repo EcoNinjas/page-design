@@ -1,2 +1,3 @@
 _site/**/*
-assets/.sass-cache/**/*
+assets/**/.sass-cache/**/*
+*.scssc
